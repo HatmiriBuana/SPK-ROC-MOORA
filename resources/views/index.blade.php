@@ -50,11 +50,11 @@
         <h1 class="text-light"><a href="">SPK </a></h1>
         <h1 class="text-light"><a href="">ROC DAN MOORA </a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl"></i></a>
+          <!-- <a href="#" class="twitter"><i class="bx bxl"></i></a>
           <a href="#" class="facebook"><i class="bx bxL"></i></a>
           <a href="#" class="instagram"><i class="bx bxl"></i></a>
           <a href="#" class="google-plus"><i class="bx bxl"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl"></i></a> -->
         </div>
       </div>
 
@@ -64,8 +64,15 @@
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Nama Kelompok</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Jurnal</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Studi Kasus</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Perhitungan</span></a></li>
+          <li><a href="#resume2" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Perhitungan</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Kesimpulan</span></a></li>
+<<<<<<< HEAD
+=======
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+>>>>>>> e261f5e217537149b96b3b7bedb75387daa08352
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -94,6 +101,7 @@
             pemilihan siswa yang tidak mampu dan layak menerima bantuan. Sistem ini dikembangkan dengan metode ROC (Rank Order Centroid) untuk pembobotan kriteria
              dan MOORA (Multi-Objective Optimization on the Basis of Ratio Analysis) untuk perangkingan alternatif. 
              Sistem ini menggunakan framework laravel, PHP, dan Javascript.  </p></h4> </div>
+<<<<<<< HEAD
 
 
              <div class="section-title">
@@ -104,6 +112,15 @@
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/berlian.jpeg" class="img-fluid" alt="">
+=======
+          <h2>Nama Kelompok</h2>
+        </div>
+
+        <div class="row" >
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class
+            <img src="assets/img/tiara.jpg" class="img-fluid" alt="">
+>>>>>>> e261f5e217537149b96b3b7bedb75387daa08352
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>1. Berlian Yuni Rahmawati</h3>
@@ -267,51 +284,152 @@
     </section><!-- End BAGIAN STUDI KASUS -->
 
 
+<<<<<<< HEAD
     
     <!-- ======= BAGIAN PERHITUNGAN ======= -->
     <section id="services" class="services">
+=======
+    <section id="resume2" class="resume">
+>>>>>>> e261f5e217537149b96b3b7bedb75387daa08352
       <div class="container">
 
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <div class="section-title">
+          <h2>PERHITUNGAN</h2>
+        STEP A - Pembobotan ROC - 5 Kriteria
         </div>
-
         <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Metode ROC</h3>
+            <div class="resume-item pb-0">
+              <h4>Pembobotan ROC</h4>
+              <p><em>Kriteria berjumlah 5, maka hasil perhitungan bobot sebagai berikut</em></p>
+              <ul>
+                <li><p id="C1"></p></li>
+                <li><p id="C2"></p></li>
+                <li><p id="C3"></p></li>
+                <li><p id="C4"></p></li>
+                <li><p id="C5"></p></li>
+              </ul>
+              </div>
+            <script type="text/javascript">
+                $criteria = 5;
+
+                $bobot1 = (1+(1/2)+(1/3)+(1/4)+(1/5))/$criteria;
+                $bobot2 = (0+(1/2)+(1/3)+(1/4)+(1/5))/$criteria;
+                $bobot3 = (0+0+(1/3)+(1/4)+(1/5))/$criteria;
+                $bobot4 = (0+0+0+(1/4)+(1/5))/$criteria;
+                $bobot5 = (0+0+0+0+(1/5))/$criteria;
+
+                //print
+                document.getElementById("C1").innerHTML =
+                "Nilai bobot kriteria 1 : " + $bobot1;
+                document.getElementById("C2").innerHTML =
+                "Nilai bobot kriteria 2 : " + $bobot2;
+                document.getElementById("C3").innerHTML =
+                "Nilai bobot kriteria 3 : " + $bobot3;
+                document.getElementById("C4").innerHTML =
+                "Nilai bobot kriteria 4 : " + $bobot4;
+                document.getElementById("C5").innerHTML =
+                "Nilai bobot kriteria 5 : " + $bobot5;  
+            </script>
+        </div>
+            </div>
+
+            <h3 class="resume-title">Metode MOORA</h3>
+            <div class="resume-item">
+              <h4>Normalisasi</h4>
+
+              <table class="table">
+	<thead>
+		<tr>
+			<th>Alternatif</th>
+			<th>C1</th>
+			<th>C2</th>
+			<th>C3</th>
+            <th>C4</th>
+            <th>C5</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Siswa 1</td>
+			<td>Jhony Ahmad</td>
+			<td>jhony@malasngoding.com</td>
+			<td>Jakarta</td>
+		</tr>
+		<tr>
+			<td>Siswa 2</td>
+			<td>Rafrafil Jumadil</td>
+			<td>rafrafil@malasngoding.com</td>
+			<td>Bandung</td>
+		</tr>
+		<tr>
+			<td>Siswa 3</td>
+			<td>Diki Alfarabi Hadi</td>
+			<td>diki@malasngoding.com</td>
+			<td>Jakarta</td>
+		</tr>
+		<tr>
+			<td>Siswa 4</td>
+			<td>Ma'un Syah</td>
+			<td>diki@malasngoding.com</td>
+			<td>Medan</td>
+		</tr>
+        <tr>
+			<td>Siswa 5</td>
+			<td>Ma'un Syah</td>
+			<td>diki@malasngoding.com</td>
+			<td>Medan</td>
+		</tr>
+        <tr>
+			<td>Siswa 6</td>
+			<td>Ma'un Syah</td>
+			<td>diki@malasngoding.com</td>
+			<td>Medan</td>
+		</tr>
+        <tr>
+			<td>Siswa 7</td>
+			<td>Ma'un Syah</td>
+			<td>diki@malasngoding.com</td>
+			<td>Medan</td>
+		</tr>
+        <tr>
+			<td>Siswa 8</td>
+			<td>Ma'un Syah</td>
+			<td>diki@malasngoding.com</td>
+			<td>Medan</td>
+		</tr>
+        <tr>
+			<td>Siswa 9</td>
+			<td>Ma'un Syah</td>
+			<td>diki@malasngoding.com</td>
+			<td>Medan</td>
+		</tr>
+        <tr>
+			<td>Siswa 10</td>
+			<td>Ma'un Syah</td>
+			<td>diki@malasngoding.com</td>
+			<td>Medan</td>
+		</tr>
+	</tbody>
+</table>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+              <h5>2010 - 2014</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
           </div>
         </div>
 
       </div>
+<<<<<<< HEAD
     </section><!-- End BAGIAN PERHITUNGAN -->
+=======
+    </section><!-- End Resume Section -->
+>>>>>>> e261f5e217537149b96b3b7bedb75387daa08352
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -473,14 +591,14 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
+        <strong><span>SIB 3D</span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Kelompok 4</a>
       </div>
     </div>
   </footer><!-- End  Footer -->

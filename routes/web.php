@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('dashboard');
 });
 
+Route::get('/tables', function () {
+    return view('tables');
+});
+
 

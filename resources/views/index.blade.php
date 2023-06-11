@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>iPortfolio Bootstrap Template - Index</title>
+  <title>Sistem Pendukung Keputusan</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -46,25 +46,26 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+        <img src="assets/img/profile.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="">SPK </a></h1>
+        <h1 class="text-light"><a href="">ROC DAN MOORA </a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="#" class="twitter"><i class="bx bxl"></i></a>
+          <a href="#" class="facebook"><i class="bx bxL"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl"></i></a>
         </div>
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Nama Kelompok</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Jurnak</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Studi Kasus</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Perhitungan</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Kesimpulan</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -72,9 +73,12 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Alex Smith</h1>
-      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+    <div class="hero-container" data-aos="fade-in" >
+        <div class="text">
+      <h1>SISTEM PENDUKUNG KEPUTUSAN</h1><br>
+      <h1>SELEKSI BANTUAN SISWA TIDAK MAMPU </h1><br>
+      <h1>KOMBINASI METODE ROC DAN MOORA</h1><br>
+</div>
     </div>
   </section><!-- End Hero -->
 
@@ -85,9 +89,11 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
+          <h2>Tentang Aplikasi</h2>
+          <p><h4>Aplikasi ini adalah aplikasi sistem pendukung keputusan yang dikembangkan untuk memberikan bantuan dalam mengambil keputusan untuk mempermudah proses 
+            pemilihan siswa yang tidak mampu dan layak menerima bantuan. Sistem ini dikembangkan dengan metode ROC (Rank Order Centroid) untuk pembobotan kriteria
+             dan MOORA (Multi-Objective Optimization on the Basis of Ratio Analysis) untuk perangkingan alternatif. 
+             Sistem ini menggunakan framework laravel, PHP, dan Javascript.  </p></h4> </div>
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">

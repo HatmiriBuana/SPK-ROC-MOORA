@@ -37,4 +37,37 @@ function show() {
    var tampil = document.getElementById('tampil');
    tampil.innerHTML = html;
 }
+
+
+
+
+
+var x = 5;
+
+for (i=1, i<x.length, i++){
+    if (i=1){5
+        var bobot = (1/(x.length))/x.length;
+        return $z = bobot;
+    }
+    if(i=1){4
+            var bobot = (1/(x.length-1)+(1/(x.length)))/x.length;;
+            return $z = bobot;
+        }
+    if(i=2){3
+            var bobot = (1/(x.length-2))+(1/(x.length-1)+(1/(x.length)))/x.length;;
+            return $z = bobot;
+        }
+    if(i=3){2
+            var bobot = (1/(x.length-2))+(1/(x.length-2))+(1/(x.length-1)+(1/(x.length)))/x.length;;
+            return $z = bobot;
+        }
+    if(i=4){1
+            var bobot = ((1/(x.length-4))+(1/(x.length-3))+(1/(x.length-2))+(1/(x.length-1)+(1/(x.length))))/x.length;;
+            return $z = bobot;
+        }
+    }
 </script>
+
+
+
+

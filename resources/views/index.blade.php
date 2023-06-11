@@ -62,17 +62,10 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Nama Kelompok</span></a></li>
-<<<<<<< HEAD
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Jurnak</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Jurnal</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Studi Kasus</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Perhitungan</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Kesimpulan</span></a></li>
-=======
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
->>>>>>> 11a61bd6da1dfec78c9bcb8d03ac102dcdf4e8a2
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -91,25 +84,26 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
+    <!-- ======= BAGIAN NAMA KELOMPOK======= -->
     <section id="about" class="about">
       <div class="container">
 
         <div class="section-title">
-<<<<<<< HEAD
           <h2>Tentang Aplikasi</h2>
           <p><h4>Aplikasi ini adalah aplikasi sistem pendukung keputusan yang dikembangkan untuk memberikan bantuan dalam mengambil keputusan untuk mempermudah proses 
             pemilihan siswa yang tidak mampu dan layak menerima bantuan. Sistem ini dikembangkan dengan metode ROC (Rank Order Centroid) untuk pembobotan kriteria
              dan MOORA (Multi-Objective Optimization on the Basis of Ratio Analysis) untuk perangkingan alternatif. 
              Sistem ini menggunakan framework laravel, PHP, dan Javascript.  </p></h4> </div>
-=======
-          <h2>Nama Kelompok</h2>
-        </div>
->>>>>>> 11a61bd6da1dfec78c9bcb8d03ac102dcdf4e8a2
 
+
+             <div class="section-title">
+          <h2>Nama Kelompok</h2>
+          <p><h4>
+           </p></h4> </div>
+             
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/berlian.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>1. Berlian Yuni Rahmawati</h3>
@@ -120,16 +114,16 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Nomor Absen:</strong> <span>04</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>NIM:</strong> <span>2141764018</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>NIM:</strong> <span>2141764076</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Prodi:</strong> <span>Sistem Informasi Bisnis</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Jurusan:</strong> <span>Teknologi Informasi</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Nomor HP:</strong> <span>085608526228</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nomor HP:</strong> <span>082233313469</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>berlian@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Tanggal Lahir:</strong> <span>Mei 2002</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Tanggal Lahir:</strong> <span>29 Mei 2002</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Alamat:</strong> <span>Karangkates, Blitar</span></li>
                 </ul>
               </div>
@@ -142,12 +136,15 @@
         <p><p>
         <p><p>
         <p><p>
-          <p><p>
-            <p><p>
+        <p><p>
+        <p><p>
+        <p><p>
+        <p><p>
+        
        
             <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/hatmiri.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>2. Hatmiri Buana</h3>
@@ -176,16 +173,19 @@
           </div>
         </div>
 
-       <p><p>
         <p><p>
-          <p><p>
         <p><p>
-          <p><p>
-            <p><p>
-              <p><p>
+        <p><p>
+        <p><p>
+        <p><p>
+        <p><p>
+        <p><p>
+        <p><p>
+        <p><p>
+
               <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/tiara.jpeg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>3. Tiara Oryza Sativa</h3>
@@ -195,7 +195,7 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Nomor Absen:</strong> <span>04</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nomor Absen:</strong> <span>20</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>NIM:</strong> <span>2141764014</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Prodi:</strong> <span>Sistem Informasi Bisnis</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Jurusan:</strong> <span>Teknologi Informasi</span></li>
@@ -203,9 +203,9 @@
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Nomor HP:</strong> <span>085608526228</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tiaraoryza@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Tanggal Lahir:</strong> <span>Mei 2002</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nomor HP:</strong> <span>085784094504</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tiaraoryzasativa@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Tanggal Lahir:</strong> <span>03 Maret 2002</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Alamat:</strong> <span>Garum, Blitar</span></li>
                 </ul>
               </div>
@@ -215,75 +215,43 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End BAGIAN NAMA KELOMPOK -->
 
-    <!-- ======= Resume Section ======= -->
+    <!-- ======= BAGIAN JURNAL  ======= -->
     <section id="resume" class="resume">
       <div class="container">
 
         <div class="section-title">
-          <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Jurnal</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Referensi</h3>
             <div class="resume-item pb-0">
-              <h4>Alex Smith</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
+              <h4>Jurnal 1</h4>
+              <p><em>Jurnal ini digunakan untuk referensi pada metode ROC. Dalam sistem ini menggunakan perhitungan metode ROC untuk mendapatkan nilai bobot. Sekaligus data pada jurnal ini digunakan sebagai studi kasus yang akan dikerjakan</em></p>
+                <P>Link :  
+                <a href="https://drive.google.com/file/d/1mlviajQrhvrVIVEM2GhfJ3LTmcO_uV6p/view?usp=sharing">JURNAL 1</a><P>
             </div>
+            <P><P>
+              <P><P>
+                <P><P>
 
-            <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <h4>Jurnal 2</h4>
+              <p><em>Jurnal ini digunakan untuk referensi pada metode MOORA. Dimana dalam sistem ini mengunakan perhitungan metode MOORA untuk menghasilkan perankingan.</em></p>
+              <p>Link :
+              <a href="https://drive.google.com/file/d/1TElcU8Z_3yQxXHaIX3cWy4w3Jl-AEYQi/view?usp=sharing">JURNAL 2</a></p>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
+          
       </div>
-    </section><!-- End Resume Section -->
+    </section><!-- End BAGIAN JURNAL -->
 
-    <!-- ======= Portfolio Section ======= -->
+
+
+    <!-- ======= BAGIAN STUDI KASUS ======= -->
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
 
@@ -296,9 +264,11 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End BAGIAN STUDI KASUS -->
 
-    <!-- ======= Services Section ======= -->
+
+    
+    <!-- ======= BAGIAN PERHITUNGAN ======= -->
     <section id="services" class="services">
       <div class="container">
 
@@ -341,7 +311,7 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End BAGIAN PERHITUNGAN -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">

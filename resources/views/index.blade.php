@@ -101,7 +101,6 @@
             pemilihan siswa yang tidak mampu dan layak menerima bantuan. Sistem ini dikembangkan dengan metode ROC (Rank Order Centroid) untuk pembobotan kriteria
              dan MOORA (Multi-Objective Optimization on the Basis of Ratio Analysis) untuk perangkingan alternatif. 
              Sistem ini menggunakan framework laravel, PHP, dan Javascript.  </p></h4> </div>
-<<<<<<< HEAD
 
 
              <div class="section-title">
@@ -112,15 +111,6 @@
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/berlian.jpeg" class="img-fluid" alt="">
-=======
-          <h2>Nama Kelompok</h2>
-        </div>
-
-        <div class="row" >
-          <div class="col-lg-4" data-aos="fade-right">
-            <div class
-            <img src="assets/img/tiara.jpg" class="img-fluid" alt="">
->>>>>>> e261f5e217537149b96b3b7bedb75387daa08352
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>1. Berlian Yuni Rahmawati</h3>

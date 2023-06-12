@@ -295,7 +295,26 @@
 
       <div class="section-title">
           <h2>PERHITUNGAN</h2>
-        STEP A - Pembobotan ROC - 5 Kriteria
+       Kriteria<br>
+      <ul> <li><p>Penghasilan Orang Tulungagung (cost)</p></li>
+       <li><p>Tanggungan Orang Tua (benefit)</p></li>
+       <li><p>Nilai Kehadiran (benefit)</p></li>
+       <li><p>Nilai Rata-Rata (benefit)</p></li>
+       <li><p>Peringkat Kelas (cost)</p></li></ul>
+
+       Alternatif<br>
+       <ul>
+       <li><p>Siswa 1</p></li>
+       <li><p>Siswa 2 </p></li>
+       <li><p>Siswa 3 </p></li>
+       <li><p>Siswa 4 </p></li>
+       <li><p>Siswa 5 </p></li>
+       <li><p>Siswa 6 </p></li>
+       <li><p>Siswa 7 </p></li>
+       <li><p>Siswa 8</p></li>
+       <li><p>Siswa 9 </p></li>
+       <li><p>Siswa 10</p></li></ul>
+
         </div>
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
@@ -637,7 +656,12 @@
               <p><em>Mencari Nilai Terbesar</em></p>
               <div>
 
-<ul><li><p id="rank"></p></li></ul>
+<ul><li><p id="rank"></p></li>
+<li><p> Hasil = Siswa 7 </p></li>
+
+</ul>
+
+<p></p>
 
 </div>
 </div>
